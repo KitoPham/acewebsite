@@ -160,8 +160,8 @@ nav a{
 	float:right;
 	margin: 50px;
 	margin-right: 5vw;
-	opacity: .7;
-	border: 2px lightgray solid;
+	opacity: 1.0;
+	/*border: 2px lightgray solid;*/
 
 }
 #sideBanner:hover{
