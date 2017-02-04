@@ -1,0 +1,501 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#aboutBody{
+	background-image:url(aboutBG.jpg);
+}
+#homeBody{
+	background-image:url("backgroundCircles.jpg");
+}
+
+#conferenceBody{
+	background-image:url("conferenceBG.JPG");
+}
+
+#eventsBody{
+	background-image:url("eventsBG.JPG");
+}
+#contactBody{
+	background-image: url("contactBG.jpg")
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+	font-family: "Lato", georgia, serif;
+
+	background-origin: center;
+	background-position: center-fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+a{
+	color:white;
+}
+#wrapper{
+	position:relative;
+	min-height: 100%;
+	width:80%;
+	margin:auto;
+	background-color: rgba(255,255,255,0.2);
+	border: 2px black solid;
+}
+
+div{
+	display:block;
+}
+
+h2{
+	padding:2px;
+}
+h1{
+	font-size: 16px;
+
+}
+nav{
+	clear:right;
+	float:right;
+	font-size: 14px;
+	padding-right: 5vw;
+	color:#d3d3d3;
+}
+
+nav a{
+	margin:2px;
+}
+
+#headerTitle, #logo, #title {
+	float: right;
+	margin: 3px;
+}
+
+#headerAll{
+	margin-top: 2 vw;
+}
+#title {
+
+}
+
+#headerTitle {
+	padding-top: .3vw;
+	padding-right: 5vw;
+	color: #d3d3d3;
+
+}
+
+#year{
+
+}
+
+#year h2{
+	font-size: 16px;
+	transform: rotate(270deg);
+}
+
+#pageHead{
+	overflow:auto;
+	overflow-y: hidden;
+
+	width:100%;
+}
+
+#logo{
+	height: 25px;
+	width:auto;
+	clear:left;
+
+}
+
+#circles{
+	position: relative;
+	width: 50vw;
+	max-width: 80vh;
+	height: 50vw;
+	max-height: 80vh;
+	margin: auto;
+	padding-bottom: 100px;
+	overflow:hidden;
+
+
+}
+.aceCircle:hover{
+	transform: scale(1.1,1.1);
+	opacity:.6;
+}
+.aceCircle{
+	position: relative;
+	width: 50%;
+	opacity: 0.5;
+	height: auto;
+	float: left;
+	border-radius: 50%;
+}
+#leftCircle{
+	left:8%;
+	top:10%;
+}
+#rightCircle{
+	right:8%;
+	top:10%;
+}
+#middleCircle{
+	left: 25%;
+	bottom: 8%
+}
+
+#sideBanner {
+	width:300px;
+	max-width: 60vw;
+	float:right;
+	margin: 50px;
+	margin-right: 5vw;
+	opacity: .7;
+	border: 2px lightgray solid;
+
+}
+#sideBanner:hover{
+	opacity:1.0;
+}
+
+#sideBanner h2{
+	background-color: #EDC950;
+	padding: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color:white;
+}
+
+#sideBannerBody{
+	height: 35vw;
+	max-height: 60vh;
+	background-color: white;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#sideBanner h1{
+	margin: 10px;
+}
+
+#sideBanner img{
+	height:150px;
+	width:150px;
+	margin:30px;
+	margin-left:25%;
+}
+
+#sideBanner p{
+	margin:10px;
+}
+
+#footer {
+	clear:left;
+	width: 100%;
+	position:absolute;
+	bottom:0;
+	opacity: 0.5;
+	background-color: rgba(204,51,63,0.5);
+	background-size: cover;
+	background-position:center;
+	color:#d3d3d3;
+	overflow:hidden;
+	height:100px;
+
+}
+
+#footerTitle{
+	margin-left:30%;
+	margin-right:30%;
+	overflow: auto;
+	text-align: center;
+}
+
+#footer h3{
+	font-size: 13px;;
+}
+
+#footer p{
+	padding-top:5px;
+	float:left;
+	clear:left;
+	margin:5px;
+}
+
+#socialMedia{
+	padding-bottom: 5px; 
+	padding-top: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: white;
+}
+
+#socialMedia h3{
+	font-size: 13px;
+	text-align: center;
+}
+
+#fbLogo {
+
+}
+
+#socialMediaPics{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.sMediaLogos{
+	width:20px;
+	height: auto;
+	border-radius: 50%
+}
+
+#aboutWrapper{
+	background-color: rgba(255,128,128,.9);
+}
+
+#aboutContent{
+	width:100%;
+	overflow:auto;
+	overflow-x: hidden
+	max-height: 70vh;
+	padding-bottom: 30vh;
+
+}
+#aboutHeader, #conferenceHeader, #eventsHeader, #contactHeader{
+	width:100%;
+	height: 100px;
+	background-color: rgba(128,128,128,0.5);
+	margin-bottom: 10px;
+}
+
+#aboutHeader h2, #conferenceHeader h2, #eventsHeader h2, #contactHeader h2, #sponsorLogos h2{
+	margin-left: 50px;
+	padding-top: 30px;
+	font-size: 24px;
+	color:#d3d3d3;
+}
+
+#aboutMission, #actMission{
+	width: 100%;;
+	color:black;
+}
+
+#aboutMission{
+	background-color: rgba(1,160,176,.5);
+}
+#aboutMission h2, #actMission h2{
+	padding-top:40px;
+	margin-left: 25%;
+
+}
+#missionState, #actState{
+	width: 50%;
+	overflow: auto;
+	overflow-y: hidden;
+	padding-top: 30px;
+	margin-left:30%;
+	padding-bottom: 50px;
+
+}
+#aboutTeam{
+	overflow:hidden;
+	padding-top: 150px;
+}
+#aboutTeam img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	max-width: 30vw;
+}
+
+.officer{
+	border: 2px solid #CC333F;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.5);
+}
+#president, #campus, #historian {
+	float:left;
+	clear:left;
+	width:400px;
+	max-width: 30vw;
+	margin: 10px;
+	margin-left: 5vw;
+
+}
+#president img, #campus img, #historian img{
+	float:left;
+	margin-right: 20px;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+#president p, #campus p, #historian p{
+	text-align: left;
+}
+
+#operations, #community, #creative{
+	float:right;
+	clear:right;
+	width:400px;
+	max-width: 30vw;
+	margin: 10px;
+	margin-right:10vw;
+
+}
+
+#operations img, #community img, #creative img{
+	float:right;
+	margin-left: 20px;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+#president strong, #operations strong{
+	color:#CC333F;
+}
+#campus strong, #community strong{
+	color:#EDC950;
+}
+
+#historian strong, #creative strong{
+	color:#01A0B0;
+
+}
+#actMission {
+	background-color:#01A0B0;
+	color:white;
+}
+#theme{
+	float:left;
+	margin:100px;
+	margin-left: 10vw;
+	color:white;
+	padding:40px;
+	width:700px;
+	max-width: 40vw;
+	border-radius: 50px;
+	background-color: rgba(128,128,128,.8);
+	margin-bottom: 30px;
+}
+#theme h2{
+	float:left;
+}
+
+#theme h3{
+	float:right;
+	width:400px;
+	max-width: 30vw;
+}
+
+#date {
+	float:right;
+	background-color: rgba(204,51,63,.5);
+	margin:30px;
+	color:white;
+	padding: 25px;
+	border-radius: 20px;
+}
+
+#sponsorLogos{
+	background-color: rgba(255,255,255,0.5);
+	border-top: 2px solid white;
+}
+#sponsorLogos h3{
+	color:#CC333F;
+}
+#sponsorLogos img{
+	margin:50px;
+}
+#speakersContent{
+	padding-bottom: 30vh;
+	overflow:auto;
+	clear:right;
+	clear:left;
+}
+#speakersContent img{
+	height:200px;
+	width:200px;
+	margin:10px;
+}
+#speakerContentHead{
+	text-align: center;
+	color:white;
+	width:100%;
+	float:left;
+}
+
+#speakerContentHead h2{
+	width:20%;
+	float:left;
+	margin-left: 40%;
+	background-color: #EDC950;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding:10px;
+}
+#speaker1{
+	float:left;
+	border: 5px solid #01A0B0;
+	border-radius: 50px;
+	width: 500px;
+	max-width: 40vw;
+	overflow:auto;
+	margin-left: 5vw;
+	margin-top: 50px;
+	background-color: rgba(255,255,255,1);
+	padding:50px;
+}
+#speakerTitle1{
+	margin: 50px;
+	margin-top: 100px;
+	margin-right: 0px;
+	float:left;
+	text-align: right;
+}
+#speakerSummary1{
+	float:left;
+	margin-left: 75px;
+	margin-right:75px;
+	margin-bottom: 50px;
+	text-align: right;
+}
+#speaker1 img{
+	float:right;
+
+}#speaker2{
+	float:right;
+	border: 5px solid #CC333F;
+	border-radius: 50px;
+	width: 500px;
+	max-width: 40vw;
+	overflow:auto;
+	margin-right: 5vw;
+	margin-top: 50px;
+	padding:50px;
+	background-color: rgba(255,255,255,1);
+}
+#speakerTitle2{
+	margin: 50px;
+	margin-top: 100px;
+	margin-left: 0px;
+	float:right;
+}
+#speakerSummary2{
+	float:right;
+	margin-left: 75px;
+	margin-right:75px;
+	margin-bottom: 50px;
+}
+#speaker2 img{
+	float:left;
+}

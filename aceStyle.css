@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: white;
+	font-family: georgia, "times new roman", serif;
+
+
+}
+
+div{
+	display:block;
+}
+
+h2{
+	padding:2px;
+}
+h1{
+	font-size: 3.5vw;
+
+}
+
+#headerTitle, #logo, #title {
+	float: left;
+}
+
+#headerAll{
+}
+#title {
+	overflow: hidden;
+	height:7vw;
+	width: 80vw;
+	
+}
+
+#headerTitle {
+	margin-top: 1vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 1vw;
+}
+
+#year{
+	font-weight:bold;
+	float:right;
+	color:white;
+	background-color: #CC333F;
+	opacity: 0.5;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	height: 10vw;
+	width:2vw;
+
+}
+
+#year h2{
+	font-size: 2.0vw;
+	margin-top:3.7vw;
+	transform: rotate(270deg);
+}
+
+#pageHead{
+	overflow:auto;
+	background-color: white;
+
+	width:100vw;
+}
+
+#logo{
+	height: 7vw;
+	width:auto;
+
+}
+
+#circles{
+	position: relative;
+	background-color: white;
+	height: 55vw;
+	width: 55vw;
+	margin: 2vw;
+	margin-left: 30vw;
+	overflow: auto;
+	border-radius: 50%;
+}
+.aceCircle{
+	position: relative;
+	width: 50%;
+	opacity: 0.5;
+	height: auto;
+	float: left;
+	border-radius: 50%;
+}
+#leftCircle{
+	left:8%;
+	top:14%;
+}
+#rightCircle{
+	right:8%;
+	top:14%;
+}
+#middleCircle{
+	left: 25%;
+	bottom: 4%
+}
+
+#sideBanner {
+	width:30vw;
+	float: left;
+	margin: 2vw;
+}
+
+#sideBanner h2{
+	background-color: white;
+	padding: 2vw;
+	font-size: 2vw;
+}
+
+#sideBanner p{
+	margin-top: 1vw;
+	height: 50vw;
+	background-color: white;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#footer {
+	clear:left;
+}
