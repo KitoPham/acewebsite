@@ -57,15 +57,16 @@ h2{
 	padding:2px;
 }
 h1{
-	font-size: 16px;
+	font-size: 30px;
 
 }
 nav{
-	clear:right;
-	float:right;
-	font-size: 14px;
+	clear:left;
+	float:left;
+	font-size: 20px;
 	padding-right: 5vw;
 	color:#d3d3d3;
+	margin-left: 50px;
 }
 
 nav a{
@@ -73,15 +74,17 @@ nav a{
 }
 
 #headerTitle, #logo, #title {
-	float: right;
+	float: left;
 	margin: 3px;
 }
 
 #headerAll{
-	margin-top: 2 vw;
+	margin-top: 2vw;
+	overflow: hidden;
+	margin-left: 30px;
 }
 #title {
-
+	font-size: 30px;
 }
 
 #headerTitle {
@@ -108,7 +111,7 @@ nav a{
 }
 
 #logo{
-	height: 25px;
+	height: 40px;
 	width:auto;
 	clear:left;
 
